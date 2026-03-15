@@ -1,5 +1,21 @@
 [
   {
+    "id": "20260315-200220-256018",
+    "title": "再过十年，中国的房地产就会倒过来",
+    "type": "video",
+    "summary": "再过十年,咱们中国的房子就会倒过来了；很多人跪在地上,求把房子卖出去,你都卖不掉；这就是趋势,中国的房子有四个十五年；第一个十五年是没有房子,中国人没有房子,买不起房子；你跪在地上卖,你都卖不掉的",
+    "tags": [
+      "Baidu",
+      "视频",
+      "转写"
+    ],
+    "status": "processed",
+    "created_at": "2026-03-15T20:03:54.147577+08:00",
+    "updated_at": "2026-03-15T20:03:54.147577+08:00",
+    "source": "D:\\openclaw\\workspaces\\think-tank\\collector-v1\\knowledge-vault\\raw\\remote_downloads\\11adbac3be13\\mda-rmkj6sbsyzq3jdbp.mp4",
+    "detail_path": "/docs/20260315-200220-256018"
+  },
+  {
     "id": "20260315-171421-426650",
     "title": "窦文涛破亿访谈展道家智慧帮你摆脱焦虑内耗",
     "type": "video",
@@ -46,5 +62,45 @@
     "updated_at": "2026-03-15T15:49:58.105243+08:00",
     "source": "https://mbd.baidu.com/newspage/data/videolanding?nid=sv_3352848820068511906&sourceFrom=share",
     "detail_path": "/docs/20260315-154955-367477"
+  },
+  {
+    "id": "20260312-032736-685433",
+    "title": "《毛选》揭秘：能成大事的人，都避开了这五个坑",
+    "type": "web",
+    "summary": "文章借《毛选》的视角总结了五个让人难成事的常见误区：把勤奋当战略、把情绪当武器、把单干当骨气、把完美当借口、把平台当自己。核心观点是，能成事的人往往不是更聪明，而是更早避开这些坑。",
+    "tags": [
+      "微信文章",
+      "手工补录",
+      "毛选"
+    ],
+    "status": "processed",
+    "created_at": "2026-03-12T03:27:36.685433+08:00",
+    "updated_at": "2026-03-12T03:29:08.573580+08:00",
+    "source": "https://mp.weixin.qq.com/s/NauE4IlyZEfJByn4hL2woQ",
+    "detail_path": "/docs/20260312-032736-685433"
+  },
+  {
+    "id": "20260312-023731-160935",
+    "title": "wechat-article",
+    "type": "web",
+    "summary": "Title: Weixin Official Accounts Platform；URL Source: https://mp.weixin.qq.com/s/NauE4IlyZEfJByn4hL2woQ；Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page.；Markdown Content:；当前环境异常，完成验证后即可继续访问",
+    "tags": [],
+    "status": "processed",
+    "created_at": "2026-03-12T02:38:07.673510+08:00",
+    "updated_at": "2026-03-12T02:38:07.673510+08:00",
+    "source": "https://mp.weixin.qq.com/s/NauE4IlyZEfJByn4hL2woQ",
+    "detail_path": "/docs/20260312-023731-160935"
+  },
+  {
+    "id": "20260312-022524-109685",
+    "title": "wechat-article",
+    "type": "web",
+    "summary": "检测到微信正文页，建议后续增加专门抽取器",
+    "tags": [],
+    "status": "partial",
+    "created_at": "2026-03-12T02:25:25.350434+08:00",
+    "updated_at": "2026-03-12T02:25:25.350434+08:00",
+    "source": "https://mp.weixin.qq.com/s/NauE4IlyZEfJByn4hL2woQ",
+    "detail_path": "/docs/20260312-022524-109685"
   }
 ]
