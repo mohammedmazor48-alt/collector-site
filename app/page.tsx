@@ -4,6 +4,9 @@ import DocCard from '@/components/doc-card';
 import EmptyState from '@/components/empty-state';
 import { formatDate } from '@/lib/utils';
 
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 export default async function HomePage() {
   const [docs, stats] = await Promise.all([
     getIndexData(),

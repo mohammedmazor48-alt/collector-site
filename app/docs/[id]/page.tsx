@@ -4,6 +4,9 @@ import { formatDate, getTypeLabel, getTypeColor } from '@/lib/utils';
 import TagList from '@/components/tag-list';
 import MarkdownViewer from '@/components/markdown-viewer';
 
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 export async function generateStaticParams() {
   const ids = await getAllDocIds();
   return ids.map((id) => ({ id }));
