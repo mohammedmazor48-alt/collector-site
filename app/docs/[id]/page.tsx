@@ -7,6 +7,37 @@ import MarkdownViewer from '@/components/markdown-viewer';
 export const dynamic = 'force-static';
 export const revalidate = false;
 
+// 清理 markdown 内容，去掉 YAML frontmatter 和混乱的元数据
+function cleanMarkdown(markdown: string): string {
+  // 去掉 YAML frontmatter (---...---)
+  let cleaned = markdown.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
+  
+  // 去掉 "## 基本信息" 部分（包含类型、来源、作者等）
+  cleaned = cleaned.replace(/## 基本信息\s*\n[\s\S]*?(?=\n## |$)/, '');
+  
+  // 去掉 "## 附注" 部分
+  cleaned = cleaned.replace(/## 附注\s*\n[\s\S]*?$/, '');
+  
+  // 去掉 "id: ... type: ..." 这种混乱的元数据行
+  cleaned = cleaned.replace(/^id:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^type:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^title:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^source:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^captured_at:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^author:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^published_at:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^language:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^tags:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^status:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^content_hash:\s*.+$/gm, '');
+  cleaned = cleaned.replace(/^summary:\s*.+$/gm, '');
+  
+  // 清理多余的空行
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
+  
+  return cleaned.trim();
+}
+
 export async function generateStaticParams() {
   const ids = await getAllDocIds();
   return ids.map((id) => ({ id }));
@@ -106,7 +137,7 @@ export default async function DocDetailPage({
           <p>Markdown 内容不可用</p>
         </div>
       ) : (
-        <MarkdownViewer content={doc.markdown} />
+        <MarkdownViewer content={cleanMarkdown(doc.markdown)} />
       )}
     </div>
   );
