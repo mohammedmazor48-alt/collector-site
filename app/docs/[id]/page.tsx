@@ -109,17 +109,17 @@ export default async function DocDetailPage({
           borderTop: '1px solid #e5e5e5',
           paddingTop: '1rem',
         }}>
-          <div style={{ marginBottom: '0.25rem' }}>
-            <strong>来源:</strong> {doc.source}
-          </div>
           {doc.duration && (
             <div style={{ marginBottom: '0.25rem' }}>
               <strong>时长:</strong> {Math.floor(doc.duration / 60)} 分 {Math.floor(doc.duration % 60)} 秒
             </div>
           )}
-          {doc.language && (
-            <div>
-              <strong>语言:</strong> {doc.language}
+          {doc.source && doc.source.startsWith('http') && (
+            <div style={{ marginBottom: '0.25rem' }}>
+              <strong>来源:</strong>{' '}
+              <a href={doc.source} target="_blank" rel="noopener noreferrer" style={{ color: '#1890ff' }}>
+                {doc.source.length > 60 ? doc.source.substring(0, 60) + '…' : doc.source}
+              </a>
             </div>
           )}
         </div>
