@@ -30,6 +30,7 @@ export interface DocDetail {
   note_path: string;
   meta_path: string;
   markdown: string | null;
+  content_html?: string | null;
   content_text: string;
   summary_data: any;
   duration?: number;

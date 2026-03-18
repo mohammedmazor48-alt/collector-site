@@ -125,7 +125,21 @@ export default async function DocDetailPage({
         </div>
       </div>
 
-      {doc.markdown_missing || !doc.markdown ? (
+      {doc.content_html ? (
+        <div
+          className="wechat-article-content"
+          dangerouslySetInnerHTML={{ __html: doc.content_html }}
+          style={{
+            background: '#fff',
+            padding: '2rem',
+            borderRadius: '8px',
+            border: '1px solid #e5e5e5',
+            lineHeight: '1.8',
+            fontSize: '1rem',
+            overflowX: 'hidden',
+          }}
+        />
+      ) : doc.markdown_missing || !doc.markdown ? (
         <div style={{
           background: '#fff',
           padding: '2rem',
@@ -134,7 +148,7 @@ export default async function DocDetailPage({
           textAlign: 'center',
           color: '#999',
         }}>
-          <p>Markdown 内容不可用</p>
+          <p>内容不可用</p>
         </div>
       ) : (
         <MarkdownViewer content={cleanMarkdown(doc.markdown)} />
