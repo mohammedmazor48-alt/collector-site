@@ -1,5 +1,19 @@
 [
   {
+    "id": "20260323-081332-355436",
+    "title": "OpenClaw安全篇：你的龙虾正在裸奔吗？",
+    "type": "web",
+    "summary": "文章深入剖析OpenClaw（龙虾）AI助手的安全隐患，指出多数事故源于配置不当而非技术漏洞。核心风险在于DM策略（dmPolicy）设置为open导致任何人可与AI对话，以及过度授权使AI能执行敏感操作。作者提出三道防线：严格门禁控制（推荐pairing/allowlist模式）、最小权限原则（限制工具集）、启用沙箱隔离。提供五个危险配置自检清单及openclaw security audit自动检测工具，并开源了安全加固Skill帮助用户快速修复漏洞。",
+    "tags": [
+      "微信文章"
+    ],
+    "status": "processed",
+    "created_at": "2026-03-23T08:14:15.876417+08:00",
+    "updated_at": "2026-03-23T08:14:15.876433+08:00",
+    "source": "https://mp.weixin.qq.com/s/BoExEyYratEEE23XMB2xZg",
+    "detail_path": "/docs/20260323-081332-355436"
+  },
+  {
     "id": "20260322-213242-935441",
     "title": "老上海Vs新富豪-上海豪宅的两种逻辑：老钱买地段，新钱买产品",
     "type": "web",
