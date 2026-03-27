@@ -1,9 +1,10 @@
 {
-  "total_docs": 37,
+  "total_docs": 41,
   "by_type": {
+    "web": 14,
+    "pdf": 3,
     "video": 23,
-    "web": 13,
     "audio": 1
   },
-  "updated_at": "2026-03-26T22:07:07.581243+08:00"
+  "updated_at": "2026-03-27T21:59:30.788703+08:00"
 }
