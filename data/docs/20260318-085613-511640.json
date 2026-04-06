@@ -13,7 +13,7 @@
   "updated_at": "2026-03-18T08:56:33.006872+08:00",
   "note_path": "knowledge-vault\\notes\\2026\\03\\20260318-085613-511640-世界越复杂-做人越简单-不困情-不乱心-不惑物-方能行稳致远.md",
   "meta_path": "knowledge-vault\\meta\\2026\\03\\20260318-085613-511640.json",
-  "markdown": "---\nid: 20260318-085613-511640\ntype: web\ntitle: 世界越复杂，做人越简单。不困情、不乱心、不惑物，方能行稳致远\nsource: https://mbd.baidu.com/newspage/data/videolanding?nid=sv_3849543406765716212&sourceFrom=share\ncaptured_at: 2026-03-18T08:56:33.006832+08:00\nauthor: None\npublished_at: None\nlanguage: zh\ntags:\n  - 百度视频\n  - 转写\nstatus: processed\ncontent_hash: sha256:1be4079b15f567a8d02bcc33584d4cd674e7d69f54b308546619b44bf916c58b\nsummary: 这段文字阐述了在复杂世界中保持简单做人原则的处世智慧。作者认为，面对日益复杂的外部环境，人应当回归本真，做到不为情感所困扰、不被杂念扰乱心智、不被物质利益迷惑双眼。只有保持内心的澄明与简单，才能在人生道路上走得稳健长远。这是一种强调内在定力与外在简约相结合的人生哲学，体现了东方智慧中返璞归真的思想精髓。\n---\n\n# 世界越复杂，做人越简单。不困情、不乱心、不惑物，方能行稳致远\n\n## 基本信息\n\n- 类型：web\n- 来源：https://mbd.baidu.com/newspage/data/videolanding?nid=sv_3849543406765716212&sourceFrom=share\n- 作者：None\n- 采集时间：2026-03-18T08:56:33.006832+08:00\n- 发布时间：None\n\n## 摘要\n\n这段文字阐述了在复杂世界中保持简单做人原则的处世智慧。作者认为，面对日益复杂的外部环境，人应当回归本真，做到不为情感所困扰、不被杂念扰乱心智、不被物质利益迷惑双眼。只有保持内心的澄明与简单，才能在人生道路上走得稳健长远。这是一种强调内在定力与外在简约相结合的人生哲学，体现了东方智慧中返璞归真的思想精髓。\n\n## 要点\n\n- 在复杂环境中主张简单做人的人生哲学\n- 提出不困情、不乱心、不惑物的三不原则\n- 强调内心定力对稳健前行的重要性\n- 体现返璞归真、去繁就简的处世智慧\n\n## 关键词\n\n处世哲学, 简单做人, 内心定力, 返璞归真, 行稳致远, 人生智慧, 三不原则\n\n## 摘要元信息\n\n- backend: openai\n- model: kimi-for-coding\n\n世界越复杂，做人越简单。不困情、不乱心、不惑物，方能行稳致远\n\n## 附注\n\n- 状态：processed\n",
+  "markdown": null,
   "content_html": null,
   "content_text": "世界越复杂，做人越简单。不困情、不乱心、不惑物，方能行稳致远",
   "summary_data": {
@@ -43,5 +43,6 @@
   "language": "zh",
   "author": null,
   "published_at": null,
-  "captured_at": "2026-03-18T08:56:33.006832+08:00"
+  "captured_at": "2026-03-18T08:56:33.006832+08:00",
+  "markdown_missing": true
 }
