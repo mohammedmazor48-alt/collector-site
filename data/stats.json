@@ -1,10 +1,10 @@
 {
-  "total_docs": 46,
+  "total_docs": 47,
   "by_type": {
+    "video": 25,
     "web": 18,
-    "video": 24,
     "pdf": 3,
     "audio": 1
   },
-  "updated_at": "2026-04-10T09:08:50.150679+08:00"
+  "updated_at": "2026-04-11T12:52:05.699041+08:00"
 }

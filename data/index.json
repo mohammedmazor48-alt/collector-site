@@ -1,5 +1,21 @@
 [
   {
+    "id": "20260411-123626-670699",
+    "title": "全流程在飞书内闭环：上传→指令交互→迭代优化→交付",
+    "type": "video",
+    "summary": "作者介绍了一个名为“小龙虾”的AI视频剪辑技能（skill），可自动完成扣帧剪辑、高精度语音转字幕（尤其适配个人口音与专有名词）、智能分镜标注、配音配乐，以及调用Cdance API生成AR视频。演示中虽遇API Key遗漏、字幕错位、比例失真等小问题，但通过多轮指令修正后成功输出成品。该工具显著降低人工剪辑门槛，替代传统剪辑软件如剪映，在个性化识别与端到端自动化方面具备明显优势。",
+    "tags": [
+      "xiaohongshu",
+      "video",
+      "transcript"
+    ],
+    "status": "processed",
+    "created_at": "2026-04-11T12:37:51.853509+08:00",
+    "updated_at": "2026-04-11T12:37:51.853514+08:00",
+    "source": "/Users/darkblue/tools/collector-v1/knowledge-vault/raw/remote_downloads/a5fea711aba0/01e9c7f9dd233bcf010370039d35307c47_259.mp4",
+    "detail_path": "/docs/20260411-123626-670699"
+  },
+  {
     "id": "20260410-090325-896287",
     "title": "#08 开源我的自媒体管线：用 Prompt 构筑护城河",
     "type": "web",
