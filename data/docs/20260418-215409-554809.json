@@ -1,0 +1,46 @@
+{
+  "id": "20260418-215409-554809",
+  "title": null,
+  "type": "web",
+  "summary": "该文本仅为两个导航操作提示：'返回前一页'和'回到首页'，属于网页或应用界面中的基础交互控件说明，无实质内容、观点或事实信息，仅指示用户可执行的页面跳转行为。",
+  "tags": [
+    "课程文档",
+    "网页材料"
+  ],
+  "status": "processed",
+  "source": "https://appnm0y9zft4074.h5.xet.citv.cn/p/course/document/d_3BykxA1jgSFmjJWdb4n87J3fN36?product_id=course_36Mg4WCKItugnd6OUVRbnoLnkIp&course_id=course_36Mg4WCKItugnd6OUVRbnoLnkIp&sub_course_id=",
+  "created_at": "2026-04-18T21:54:13.899759+08:00",
+  "updated_at": "2026-04-18T21:54:13.899767+08:00",
+  "note_path": "knowledge-vault/notes/2026/04/20260418-215409-554809-untitled.md",
+  "meta_path": "knowledge-vault/meta/2026/04/20260418-215409-554809.json",
+  "markdown": "---\nid: 20260418-215409-554809\ntype: web\ntitle: None\nsource: https://appnm0y9zft4074.h5.xet.citv.cn/p/course/document/d_3BykxA1jgSFmjJWdb4n87J3fN36?product_id=course_36Mg4WCKItugnd6OUVRbnoLnkIp&course_id=course_36Mg4WCKItugnd6OUVRbnoLnkIp&sub_course_id=\ncaptured_at: 2026-04-18T21:54:13.899708+08:00\nauthor: None\npublished_at: None\nlanguage: zh\ntags:\n  - 课程文档\n  - 网页材料\nstatus: processed\ncontent_hash: sha256:8b5a8ea379a54fc6f6aebaf22083b64c56c06b39f9e403beda7d6451cc6b864c\nsummary: 该文本仅为两个导航操作提示：'返回前一页'和'回到首页'，属于网页或应用界面中的基础交互控件说明，无实质内容、观点或事实信息，仅指示用户可执行的页面跳转行为。\n---\n\n# Untitled\n\n## 摘要\n\n该文本仅为两个导航操作提示：'返回前一页'和'回到首页'，属于网页或应用界面中的基础交互控件说明，无实质内容、观点或事实信息，仅指示用户可执行的页面跳转行为。\n\n## 要点\n\n- 提示用户进行页面导航操作\n- '返回前一页'实现历史回退\n- '回到首页'直接跳转至主入口\n- 属于用户界面（UI）基础交互元素\n- 不包含具体业务内容或语义信息\n\n## 关键词\n\n返回前一页, 回到首页, 页面导航, UI交互, 前端控件\n\n## 摘要元信息\n\n- backend: openai\n- model: qwen-plus\n\n返回前一页\n回到首页\n",
+  "content_html": null,
+  "content_text": "返回前一页\n回到首页",
+  "summary_data": {
+    "summary": "该文本仅为两个导航操作提示：'返回前一页'和'回到首页'，属于网页或应用界面中的基础交互控件说明，无实质内容、观点或事实信息，仅指示用户可执行的页面跳转行为。",
+    "bullets": [
+      "提示用户进行页面导航操作",
+      "'返回前一页'实现历史回退",
+      "'回到首页'直接跳转至主入口",
+      "属于用户界面（UI）基础交互元素",
+      "不包含具体业务内容或语义信息"
+    ],
+    "action_items": [],
+    "keywords": [
+      "返回前一页",
+      "回到首页",
+      "页面导航",
+      "UI交互",
+      "前端控件"
+    ],
+    "backend": "openai",
+    "model": "qwen-plus",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "auth_source": "config"
+  },
+  "duration": null,
+  "language": "zh",
+  "author": null,
+  "published_at": null,
+  "captured_at": "2026-04-18T21:54:13.899708+08:00"
+}
