@@ -1,11 +1,11 @@
 {
-  "total_docs": 55,
+  "total_docs": 56,
   "by_type": {
+    "note": 2,
     "web": 21,
     "video": 29,
-    "note": 1,
     "pdf": 3,
     "audio": 1
   },
-  "updated_at": "2026-05-18T10:09:38.425559+08:00"
+  "updated_at": "2026-05-18T10:52:17.397361+08:00"
 }
