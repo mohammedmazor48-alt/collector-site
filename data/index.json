@@ -1,5 +1,42 @@
 [
   {
+    "id": "20260529-084156-813833",
+    "title": "36氪「屎山 / AI 代码质量」专题收录",
+    "type": "note",
+    "summary": "收录两篇 36 氪关于 AI 编程“屎山”问题的文章，并整理其核心观点、可引用论断与合并观察，聚焦 Vibe Coding 带来的质量危机，以及 AI 自审/工程护栏作为可能解法。",
+    "tags": [
+      "36氪",
+      "AI编程",
+      "代码质量",
+      "Vibe Coding",
+      "屎山",
+      "专题收录"
+    ],
+    "status": "processed",
+    "created_at": "2026-05-29T08:41:56.820418+08:00",
+    "updated_at": "2026-05-29T08:41:56.820420+08:00",
+    "source": "/Users/darkblue/.openclaw/workspace/think-tank/inbox/2026-05-29-36kr-屎山专题.md",
+    "detail_path": "/docs/20260529-084156-813833"
+  },
+  {
+    "id": "20260529-083806-021354",
+    "title": "AI代码的“屎山危机”才刚刚开始-36氪",
+    "type": "web",
+    "summary": "“文科生72小时杀入GitHub全球榜”的标题迅速刷屏，成为Vibe Coding跨界叙事的标杆案例。Vibe Coding平台Lovable提供了最触目惊心的数据。苹果刚刚把一款名为Anything的应用从App Store彻底下架。",
+    "tags": [
+      "36氪",
+      "AI编程",
+      "Vibe Coding",
+      "代码质量",
+      "屎山"
+    ],
+    "status": "processed",
+    "created_at": "2026-05-29T08:41:08.764348+08:00",
+    "updated_at": "2026-05-29T08:41:08.764351+08:00",
+    "source": "https://36kr.com/p/3747601311220228",
+    "detail_path": "/docs/20260529-083806-021354"
+  },
+  {
     "id": "20260527-191947-088231",
     "title": "追觅俞浩退网，一场极致的流量实验为什么按下了暂停键？",
     "type": "web",
